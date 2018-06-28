@@ -1,0 +1,22 @@
+<DICTIONARY>
+	<NB_LANGUAGES>2</NB_LANGUAGES>
+	<NB_ENTRY>1</NB_ENTRY>
+
+	<LANGUAGE>
+		<NAME>English</NAME>
+
+		<ENTRY>
+			<MAP>Test</MAP>
+			<TXT>Test</TXT>
+		</ENTRY>
+	</LANGUAGE>
+
+	<LANGUAGE>
+		<NAME>Francais</NAME>
+
+		<ENTRY>
+			<MAP>Test</MAP>
+			<TXT>Test</TXT>
+		</ENTRY>
+	</LANGUAGE>
+</DICTIONARY>
