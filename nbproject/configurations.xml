@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>resInput</itemPath>
+      <itemPath>resScript</itemPath>
+      <itemPath>roms</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>src/AppDakiines.cpp</itemPath>
+      <itemPath>src/AppDakiines.h</itemPath>
+      <itemPath>src/CtxDakiines.cpp</itemPath>
+      <itemPath>src/CtxDakiines.h</itemPath>
+      <itemPath>src/blit_c.cpp</itemPath>
+      <itemPath>src/blitters.h</itemPath>
+      <itemPath>src/cal.cpp</itemPath>
+      <itemPath>src/cal.h</itemPath>
+      <itemPath>src/cd.h</itemPath>
+      <itemPath>src/cd_unix.cpp</itemPath>
+      <itemPath>src/coleco.cpp</itemPath>
+      <itemPath>src/cpu6280.cpp</itemPath>
+      <itemPath>src/cpu6280int.h</itemPath>
+      <itemPath>src/cpu6280opc.cpp</itemPath>
+      <itemPath>src/cpu6502.cpp</itemPath>
+      <itemPath>src/cpu6502.h</itemPath>
+      <itemPath>src/cpu6502int.h</itemPath>
+      <itemPath>src/cpu6502opc.cpp</itemPath>
+      <itemPath>src/cpudefs.h</itemPath>
+      <itemPath>src/dt68000.cpp</itemPath>
+      <itemPath>src/emu68k.cpp</itemPath>
+      <itemPath>src/emu68k.h</itemPath>
+      <itemPath>src/event.cpp</itemPath>
+      <itemPath>src/event.h</itemPath>
+      <itemPath>src/game.h</itemPath>
+      <itemPath>src/gen_vdp.cpp</itemPath>
+      <itemPath>src/gen_vdp.h</itemPath>
+      <itemPath>src/genesis.cpp</itemPath>
+      <itemPath>src/keyboard_dakii.cpp</itemPath>
+      <itemPath>src/m6502.h</itemPath>
+      <itemPath>src/machdep.h</itemPath>
+      <itemPath>src/mappers.cpp</itemPath>
+      <itemPath>src/mappers.h</itemPath>
+      <itemPath>src/memtypes.h</itemPath>
+      <itemPath>src/menu.h</itemPath>
+      <itemPath>src/msx.cpp</itemPath>
+      <itemPath>src/mtypes.h</itemPath>
+      <itemPath>src/mz80.cpp</itemPath>
+      <itemPath>src/mz80.h</itemPath>
+      <itemPath>src/mz80opc1.h</itemPath>
+      <itemPath>src/mz80opc2.h</itemPath>
+      <itemPath>src/mz80opc3.h</itemPath>
+      <itemPath>src/mz80opc4.h</itemPath>
+      <itemPath>src/mz80opc5.h</itemPath>
+      <itemPath>src/nes.cpp</itemPath>
+      <itemPath>src/nes.h</itemPath>
+      <itemPath>src/nesStruct.h</itemPath>
+      <itemPath>src/nes_ppu.cpp</itemPath>
+      <itemPath>src/nes_ppu.h</itemPath>
+      <itemPath>src/nes_psg.cpp</itemPath>
+      <itemPath>src/nes_psg.h</itemPath>
+      <itemPath>src/palette.h</itemPath>
+      <itemPath>src/palette16.cpp</itemPath>
+      <itemPath>src/palette32.cpp</itemPath>
+      <itemPath>src/palette8.cpp</itemPath>
+      <itemPath>src/pce.cpp</itemPath>
+      <itemPath>src/pce_cd.cpp</itemPath>
+      <itemPath>src/pce_vdp.cpp</itemPath>
+      <itemPath>src/pce_vdp.h</itemPath>
+      <itemPath>src/sg1000.cpp</itemPath>
+      <itemPath>src/sms.cpp</itemPath>
+      <itemPath>src/sms9918.cpp</itemPath>
+      <itemPath>src/sms9918.h</itemPath>
+      <itemPath>src/sms_psg.cpp</itemPath>
+      <itemPath>src/sms_psg.h</itemPath>
+      <itemPath>src/snd.h</itemPath>
+      <itemPath>src/snd_dakii.cpp</itemPath>
+      <itemPath>src/snd_unix.cpp</itemPath>
+      <itemPath>src/system.h</itemPath>
+      <itemPath>src/test.cpp</itemPath>
+      <itemPath>src/tiledraw.cpp</itemPath>
+      <itemPath>src/tiledraw.h</itemPath>
+      <itemPath>src/tms9918.cpp</itemPath>
+      <itemPath>src/tms9918.h</itemPath>
+      <itemPath>src/tool.cpp</itemPath>
+      <itemPath>src/tool.h</itemPath>
+      <itemPath>src/torr_cpu.cpp</itemPath>
+      <itemPath>src/types-i386.h</itemPath>
+      <itemPath>src/types.h</itemPath>
+      <itemPath>src/ui.h</itemPath>
+      <itemPath>src/ui_dakii.cpp</itemPath>
+      <itemPath>src/unixdep.h</itemPath>
+      <itemPath>src/video.h</itemPath>
+      <itemPath>src/video_dakii.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>README.md</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>src</pElem>
+            <pElem>../../Libs/dakiilib/src/dfc</pElem>
+            <pElem>../../Libs/dakiilib/src/helper</pElem>
+            <pElem>../../Libs/dakiilib/src/lib</pElem>
+          </incDir>
+          <commandLine>`sdl2-config --cflags` -fexceptions -fpermissive</commandLine>
+          <preprocessorList>
+            <Elem>_DEBUG</Elem>
+            <Elem>_LINUX</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <linkerAddLib>
+            <pElem>../../Libs/dakiilib/dist/Debug/GNU-Linux</pElem>
+            <pElem>/usr/lib64</pElem>
+          </linkerAddLib>
+          <linkerLibItems>
+            <linkerLibLibItem>dakiilib</linkerLibLibItem>
+            <linkerLibLibItem>SDL2_image</linkerLibLibItem>
+            <linkerLibLibItem>SDL2_mixer</linkerLibLibItem>
+          </linkerLibItems>
+          <commandLine>`sdl2-config --libs`</commandLine>
+        </linkerTool>
+      </compileType>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resInput" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resScript" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="roms" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/AppDakiines.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/AppDakiines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxDakiines.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxDakiines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/blit_c.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/blitters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cd_unix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/coleco.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu6280.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu6280int.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cpu6280opc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu6502.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu6502.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cpu6502int.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cpu6502opc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpudefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/dt68000.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/emu68k.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/emu68k.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/gen_vdp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/gen_vdp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/genesis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/keyboard_dakii.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/m6502.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/machdep.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mappers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mappers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/memtypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/msx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mtypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mz80.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc5.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/nes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/nes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/nesStruct.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/nes_ppu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/nes_ppu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/nes_psg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/nes_psg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/palette.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/palette16.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/palette32.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/palette8.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pce.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pce_cd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pce_vdp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pce_vdp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sg1000.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sms.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sms9918.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sms9918.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sms_psg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sms_psg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snd_dakii.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/snd_unix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/system.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tiledraw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tiledraw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tms9918.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tms9918.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/torr_cpu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/types-i386.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ui.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ui_dakii.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/unixdep.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/video.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/video_dakii.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="README.md" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resInput" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="resScript" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="roms" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/AppDakiines.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/AppDakiines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/CtxDakiines.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/CtxDakiines.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/blit_c.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/blitters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cd_unix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/coleco.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu6280.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu6280int.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cpu6280opc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu6502.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpu6502.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cpu6502int.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/cpu6502opc.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/cpudefs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/dt68000.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/emu68k.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/emu68k.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/event.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/event.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/game.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/gen_vdp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/gen_vdp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/genesis.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/keyboard_dakii.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/m6502.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/machdep.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mappers.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mappers.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/memtypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/menu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/msx.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mtypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/mz80.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc1.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc4.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/mz80opc5.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/nes.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/nes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/nesStruct.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/nes_ppu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/nes_ppu.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/nes_psg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/nes_psg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/palette.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/palette16.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/palette32.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/palette8.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pce.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pce_cd.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pce_vdp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/pce_vdp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sg1000.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sms.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sms9918.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sms9918.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/sms_psg.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/sms_psg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snd.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/snd_dakii.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/snd_unix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/system.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/test.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tiledraw.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tiledraw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tms9918.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tms9918.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/tool.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/tool.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/torr_cpu.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/types-i386.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ui.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/ui_dakii.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="src/unixdep.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/video.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="src/video_dakii.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
